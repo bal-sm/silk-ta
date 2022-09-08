@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"**/*.html": "html",
+			"**/templates/*/*.html": "django-html",
+			"**/templates/*": "django-html",
+		},
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter",
+			"editor.formatOnSave": true
+		},
+		"[html]": {
+			"editor.defaultFormatter": "Glavin001.unibeautify-vscode",
+			"editor.formatOnSave": false,
+		},
+		"[django-html]": {
+			"editor.defaultFormatter": "Glavin001.unibeautify-vscode",
+			"editor.formatOnSave": false,
+		},
+		"[css]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true
+		},
+		"python.formatting.provider": "none",
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.terminal.activateEnvironment": true,
+		"prettier.printWidth": 80,
+		"prettier.tabWidth": 2,
+		"unibeautify.enabled": true,
+	}
+}
