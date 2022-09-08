@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #043277;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: Roboto;
+}
+
+.btn {
+    font-weight: 500;
+    background-color: #EE8100;
+    color: white;
+    border-color: None;
+    border-radius: 0.5rem;
+    padding: 0.4rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: #c96e00;
+    color: white;
+}
+
+.btn-logout {
+    background-color: #DC1010 !important;
+    padding: 0.4rem 1.5rem;
+}
+
+.btn-logout:hover {
+    background-color: #ad0707 !important;
+}
+
+.btn-nom {
+    background-color: #00CC83 !important;
+    padding: 0.4rem 1.5rem;
+}
+
+.btn-nom:hover {
+    background-color: #00ac70 !important;
+}
+
+
+
+.btn-radio {
+    border-color: #00CC83;
+    background-color: white;
+    color: #00CC83;
+    padding: 1rem 2rem;
+}
+
+.btn-radio:hover {
+    border-color: #00CC83 !important;
+    background-color: #00CC83 !important;
+    color: white !important;
+}
+
+.big-card {
+    border-radius: 1.5rem;
+}
+
+.form-control {
+    border-radius: 0.5rem
+}
+
+.d-block {
+    margin-bottom: 0;
+}
+
+.nominal-form {
+    font-size: 0.9rem;
+}
+
+.disabled-akun {
+    color: rgb(150, 150, 150);
+}
+
+td,
+th {
+    padding-left: 1.5rem !important;
+}
+
+thead .th-start {
+    border-top-left-radius: 1rem;
+}
+
+thead .th-end {
+    border-top-right-radius: 1rem;
+}
+
+
+tr.sub-row td.col1 {
+    padding-left: 2.5rem !important;
+}
+
+tr.sub-sub-row td.col1 {
+    padding-left: 3.5rem !important;
+}

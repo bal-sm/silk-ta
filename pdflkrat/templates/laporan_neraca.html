@@ -1,0 +1,127 @@
+{% load humanize %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table,
+    .border {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border-left: 1px solid black;
+        padding: 5px;
+    }
+</style>
+
+<p>Koperasi {{koperasi.name}}</p>
+<p>{{tahun}}</p>
+<body>
+    <table style="width:100%">
+        <tr>
+            <th style="width:85%; text-align:left;" class="border">{{akun_1.nomornya1}}&emsp;{{akun_1.namanyaupper}}</th>
+            <th style="width:15%" class="border"> </th>
+        </tr>
+        <tr>
+            <td><b>{{akun_1_1.nomornya2}}&emsp;&emsp;<b>{{akun_1_1.namanyaaja}}</b></td>
+            <td> </td>
+        </tr>
+        {% for akun in akun_1_1_ %}
+        <tr>
+            <td>{{akun.nomornya3}}&emsp;{{akun.namanyaaja}}</td>
+            <td style="text-align:center;">Rp. {{akun.nominal|intcomma}}</td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah {{akun_1_1.namanyaaja}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_1_1_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr>
+            <td><b>{{akun_1_2.nomornya2}}&emsp;&emsp;<b>{{akun_1_2.namanyaaja}}</b></td>
+            <td> </td>
+        </tr>
+        {% for akun in akun_1_2_ %}
+        <tr>
+            <td>{{akun.nomornya3}}&emsp;{{akun.namanyaaja}}</td>
+            <td style="text-align:center;">Rp. {{akun.nominal|intcomma}}</td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah {{akun_1_2.namanyaaja}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_1_2_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td class="border">JUMLAH {{akun_1.namanyaupper}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_1_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr>
+            <th style="width:85%; text-align:left;" class="border">{{akun_2.nomornya1}}&emsp;{{akun_2.namanyaupper}}</th>
+            <th style="width:15%" class="border"> </th>
+        </tr>
+        <tr>
+            <td><b>{{akun_2_1.nomornya2}}&emsp;&emsp;<b>{{akun_2_1.namanyaaja}}</b></td>
+            <td> </td>
+        </tr>
+        {% for akun in akun_2_1_ %}
+        <tr>
+            <td>{{akun.nomornya3}}&emsp;{{akun.namanyaaja}}</td>
+            <td style="text-align:center;">Rp. {{akun.nominal|intcomma}}</td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah {{akun_2_1.namanyaaja}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_2_1_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr>
+            <td><b>{{akun_2_2.nomornya2}}&emsp;&emsp;<b>{{akun_2_2.namanyaaja}}</b></td>
+            <td> </td>
+        </tr>
+        {% for akun in akun_2_2_ %}
+        <tr>
+            <td>{{akun.nomornya3}}&emsp;{{akun.namanyaaja}}</td>
+            <td style="text-align:center;">Rp. {{akun.nominal|intcomma}}</td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah {{akun_2_2.namanyaaja}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_2_2_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td class="border">JUMLAH {{akun_2.namanyaupper}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_2_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr>
+            <th style="width:85%; text-align:left;" class="border">{{akun_3.nomornya1}}&emsp;{{akun_3.namanyaupper}}</th>
+            <th style="width:15%" class="border"> </th>
+        </tr>
+        <tr>
+            <td><b>{{akun_3_1.nomornya2}}&emsp;&emsp;<b>{{akun_3_1.namanyaaja}}</b></td>
+            <td> </td>
+        </tr>
+        {% for akun in akun_3_1_ %}
+        <tr>
+            <td>{{akun.nomornya3}}&emsp;{{akun.namanyaaja}}</td>
+            <td style="text-align:center;">Rp. {{akun.nominal|intcomma}}</td>
+        </tr>
+        {% endfor %}
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah {{akun_3_1.namanyaaja}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_3_1_sum.nominal__sum|intcomma}}</td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td class="border">JUMLAH {{akun_3.namanyaupper}}</td>
+            <td style="text-align:center;" class="border">Rp. {{akun_3_sum.nominal__sum|intcomma}}</td>
+        </tr>
+    </table>
+</body>
+
+</html>

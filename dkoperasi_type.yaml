@@ -1,0 +1,30 @@
+- model: dkoperasi.type
+  pk: 1
+  fields:
+    name: Jasa
+    description: ''
+- model: dkoperasi.type
+  pk: 2
+  fields:
+    name: Produsen
+    description: ''
+- model: dkoperasi.type
+  pk: 3
+  fields:
+    name: Konsumen
+    description: ''
+- model: dkoperasi.type
+  pk: 4
+  fields:
+    name: Pemasaran
+    description: ''
+- model: dkoperasi.type
+  pk: 5
+  fields:
+    name: Simpan Pinjam
+    description: ''
+- model: dkoperasi.type
+  pk: 6
+  fields:
+    name: Simpan Pinjam Syariah
+    description: ''

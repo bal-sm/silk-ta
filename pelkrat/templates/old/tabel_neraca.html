@@ -1,0 +1,99 @@
+{% load humanize %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.3.2 (Linux)"/>
+	<meta name="created" content="2022-06-04T08:26:56.271048633"/>
+	<meta name="changed" content="2022-06-04T08:51:27.324969748"/>
+	<style type="text/css">
+		@page { size: 21.59cm 27.94cm; margin: 2cm }
+		p { line-height: 115%; margin-bottom: 0.25cm; background: transparent }
+		td p { orphans: 0; widows: 0; background: transparent }
+	</style>
+</head>
+<body lang="en-GB" link="#000080" vlink="#800000" dir="ltr"><p>{{koperasi.name}}</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="128*"/>
+
+	<col width="128*"/>
+
+	<tbody>
+		<tr valign="top">
+			<td width="50%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+				<b>{{akun_1.namanya1}}</b></p>
+			</td>
+			<td width="50%" style="border: 1px solid #000000; padding: 0.1cm"><p>
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr valign="top">
+			<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+				<b>{{akun_1_1.namanya2}}</b></p>
+			</td>
+			<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p>
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	{% for akun in akun_1_1_ %}
+	<tbody>
+		<tr valign="top">
+			<td width="50%" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0cm; padding-left: 0.1cm; padding-right: 0cm"><p style="font-weight: normal">
+				{{akun.nama_akun}}</p>
+			</td>
+			<td width="50%" style="border-top: 1px solid #000000; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0.1cm; padding-bottom: 0cm; padding-left: 0.1cm; padding-right: 0.1cm"><p style="font-weight: normal">
+				Rp. {{akun.nominal|intcomma}}</p>
+			</td>
+		</tr>
+	{% endfor %}
+		<tr valign="top">
+			<td width="50%" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.1cm; padding-right: 0cm"><p style="font-weight: normal">
+				<br/>
+
+				</p>
+			</td>
+			<td width="50%" style="border-top: none; border-bottom: none; border-left: 1px solid #000000; border-right: 1px solid #000000; padding: 0cm 0.1cm"><p style="font-weight: normal">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr valign="top">
+			<td width="50%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p style="font-weight: normal">
+				Jumlah {{akun_1_1.namanyaaja}}</p>
+			</td>
+			<td width="50%" style="border: 1px solid #000000; padding: 0.1cm"><p style="font-weight: normal">
+				Rp. {{akun_1_1_sum.nominal__sum|intcomma}}</p>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr valign="top">
+			<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+				<b>Jumlah {{akun_1.namanyaaja}}</b></p>
+			</td>
+			<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p style="font-weight: normal">
+				<p>
+				Rp. {{akun_1_sum.nominal__sum|intcomma}}
+				</p>
+			</td>
+		</tr>
+	</tbody>
+
+</table>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>

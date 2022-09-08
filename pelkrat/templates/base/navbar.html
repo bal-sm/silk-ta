@@ -1,0 +1,6 @@
+<nav class="navbar navbar-dark bg-dark px-5" style="font-family: Roboto; background-color: #01193d !important;">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="{% url 'home' %}">KOPERASI {{koperasi_user.koperasi.name|upper}}, {{tahun|upper}}</a>
+        <a class="btn btn-logout" href="{% url 'logout' %}" role="button">Logout</a>
+    </div>
+</nav>

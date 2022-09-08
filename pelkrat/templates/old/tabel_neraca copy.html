@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table,
+    .border {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border-left: 1px solid black;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            {% for akun in akun_1and2 %}
+            <th style="width:35%; text-align:left;" class="border">{{akun.nomornya1}}&emsp;{{akun.namanyaupper}}</th>
+            <th style="width:15%" class="border">2021 (Rp)</th>
+            {% endfor %}
+        </tr>
+        <tr>
+            <td>0.1&emsp;&emsp;<b>ASET LANCAR</b></td>
+            <td> </td>
+            <td>0.1&emsp;&emsp;<b>KEWAJIBAN JANGKA PENDEK</b></td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>0.1.1&emsp;Kas</td>
+            <td style="text-align:center;">234.000</td>
+            <td>0.1.1&emsp;Simpanan Anggota</td>
+            <td style="text-align:center;">234.000</td>
+        </tr>
+        <tr>
+            <td>0.1.1&emsp;Kas</td>
+            <td style="text-align:center;">234.000</td>
+            <td>0.1.1&emsp;Simpanan Anggota</td>
+            <td style="text-align:center;">234.000</td>
+        </tr>
+        <tr>
+            <td>0.1.1&emsp;Kas</td>
+            <td style="text-align:center;">234.000</td>
+            <td>0.1.1&emsp;Simpanan Anggota</td>
+            <td style="text-align:center;">234.000</td>
+        </tr>
+        <tr style="font-weight: bold;">
+            <td class="border">Jumlah Aset Lancar</td>
+            <td style="text-align:center;" class="border">234.000</td>
+            <td class="border">Jumlah Simpanan Anggota</td>
+            <td style="text-align:center;" class="border">234.000</td>
+        </tr>
+    </table>
+</body>
+
+</html>

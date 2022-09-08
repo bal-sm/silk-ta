@@ -1,0 +1,971 @@
+- model: dakun.akun
+  pk: 1
+  fields:
+    code_1: 1
+    code_2: 0
+    code_3: 0
+    name: Aset
+    description: Aset adalah kekayaan yang dimiliki dan dikelola koperasi sektor riil
+      untuk menjalankan operasional usaha.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 2
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 4
+    name: Piutang Usaha
+    description: Piutang usaha adalah tagihan koperasi sektor riil sebagai akibat
+      penyerahan barang/jasa kepada pihak lain yang tidak dibayar secara tunai.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 3
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 1
+    name: Kas
+    description: Kas adalah nilai mata uang kertas dan logam baik dalam rupiah maupun
+      mata uang asing sebagai alat pembayaran dan siap serta bebas dipergunakan untuk
+      membiayai kegiatan umum koperasi sektor riil.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 4
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 2
+    name: Bank
+    description: Bank adalah simpanan koperasi sektor riil pada bank tertentu yang
+      likuid, seperti tabungan, giro dan deposito serta simpanan lainnya.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 5
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 3
+    name: Surat Berharga
+    description: Surat berharga adalah investasi dalam berbagai bentuk surat berharga
+      yang dapat dicairkan dan diperjualbelikan dalam bentuk tunai setiap saat.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 6
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 0
+    name: Aset Lancar
+    description: Aset lancar adalah aset yang memiliki masa manfaat kurang dari 1
+      tahun.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 7
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 5
+    name: Penyisihan Piutang Tak Tertagih
+    description: Penyisihan piutang tak tertagih adalah penyisihan nilai tertentu
+      sebagai pengurang nilai piutang atas terjadinya kemungkinan risiko piutang tak
+      tertagih yang dibentuk untuk menutup kemungkinan kerugian akibat pemberian piutang.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 8
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 6
+    name: Persediaan
+    description: Persediaan adalah nilai kekayaan koperasi sektor riil yang diinvestasikan
+      dalam bentuk persediaan, baik persediaan dalam bentuk barang dagangan, bahan
+      baku, barang dalam proses dan barang jadi.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 9
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 7
+    name: Biaya Dibayar Dimuka
+    description: Biaya dibayar dimuka adalah sejumlah dana yang telah dibayarkan kepada
+      pihak lain untuk memperoleh manfaat barang/jasa tertentu.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 10
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 8
+    name: Pendapatan Yang Masih Harus Diterima
+    description: Pendapatan yang masih harus diterima adalah berbagai jenis pendapatan
+      koperasi sektor riil yang sudah dapat diakui sebagai pendapatan tetapi belum
+      dapat diterima pembayaran secara tunai.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 11
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 9
+    name: Uang Muka
+    description: Uang muka adalah sejumlah pembayaran yang dilakukan koperasi sektor
+      riil sebagai pembayaran dimuka seperti pembayaran atas pembelian barang atau
+      jasa yang secara fisik belum diterima, pembayaran dimuka atas pajak Pasal 25
+      dan pembayaran dimuka yang sejenis.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 12
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 10
+    name: PPh Dibayar Dimuka
+    description: PPh dibayar dimuka adalah sejumlah pembayaran yang dilakukan koperasi
+      sektor riil sebagai pembayaran dimuka atas angsuran pajak Pasal 25 .
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 13
+  fields:
+    code_1: 1
+    code_2: 1
+    code_3: 99
+    name: Aset Lancar Lain
+    description: Aset lancar lain adalah aset yang tidak termasuk sebagaimana pada
+      butir 1 sampai dengan 10 di atas.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 14
+  fields:
+    code_1: 2
+    code_2: 0
+    code_3: 0
+    name: Kewajiban
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 15
+  fields:
+    code_1: 3
+    code_2: 0
+    code_3: 0
+    name: Ekuitas
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 16
+  fields:
+    code_1: 4
+    code_2: 0
+    code_3: 0
+    name: Pendapatan
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 17
+  fields:
+    code_1: 5
+    code_2: 0
+    code_3: 0
+    name: Beban
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 18
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 0
+    name: Aset Tidak Lancar
+    description: Aset tidak lancar adalah aset yang terdiri dari beberapa macam aset,
+      masa manfaat lebih dari satu periode akuntansi, dimiliki serta digunakan dalam
+      kegiatan operasional dengan kompensasi penggunaan berupa biaya depresiasi (penyusutan).
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 19
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 1
+    name: Investasi Jangka Panjang
+    description: Investasi jangka panjang adalah aset atau kekayaan yang diinvestasikan
+      pada koperasi sekunder atau koperasi lain untuk jangka waktu lebih dari satu
+      tahun tidak dapat dicairkan berupa simpanan atau penyertaan modal.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 20
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 2
+    name: Properti Investasi
+    description: Properti investasi adalah properti (tanah atau bangunan atau bagian
+      dari suatu bangunan atau kedua-duanya) yang dikuasai oleh pemilik/ koperasi
+      atau lessee melalui sewa pembiayaan dan dapat menghasilkan sewa atau kenaikan
+      nilai atau kedua-duanya.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 21
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 3
+    name: Akumulasi Penyusutan Properti Investasi
+    description: Akumulasi penyusutan properti investasi adalah pengurang nilai perolehan
+      suatu properti investasi sebagai akibat penggunaan dan berlalunya waktu.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 22
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 4
+    name: Tanah
+    description: Tanah/hak atas tanah adalah kekayaan yang diinvestasikan dalam bentuk
+      hak atas tanah.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 23
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 5
+    name: Bangunan
+    description: Bangunan adalah kekayaan yang diinvestasikan dalam bentuk berbagai
+      bangunan.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 24
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 6
+    name: Mesin, Kendaraan dan Peralatan Produksi
+    description: Mesin kendaraan dan peralatan produksi adalah kekayaan yang diinvestasikan
+      dalam bentuk berbagai jenis, seperti mesin , kendaraan atau peralatan produksi.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 25
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 7
+    name: Inventaris dan Peralatan Kantor
+    description: Inventaris dan peralatan kantor adalah kekayaan yang diinvestasikan
+      dalam berbagai bentuk inventaris dan peralatan kantor.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 26
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: null
+    name: Akumulasi Penyusutan Bangunan
+    description: ''
+    debit_credit: '-'
+    is_enabled: false
+    koperasi_type: []
+- model: dakun.akun
+  pk: 27
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: null
+    name: Akumulasi Penyusutan Inventaris dan Peralatan Kant
+    description: ''
+    debit_credit: '-'
+    is_enabled: false
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 28
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 8
+    name: Hak Paten
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 29
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 9
+    name: Hak Cipta
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 30
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: null
+    name: Akumulasi Amortisasi Aset Tidak Berwujud
+    description: Akumulasi amortisasi aset tidak berwujud adalah pengurang nilai perolehan
+      berupa·penambahan beban amortisasi sampai dengan periode tertentu suatu aset
+      tidak berwujud sebagai akibat penggunaan dan berlalunya-waktu·.
+    debit_credit: '-'
+    is_enabled: false
+    koperasi_type: []
+- model: dakun.akun
+  pk: 31
+  fields:
+    code_1: 1
+    code_2: 2
+    code_3: 99
+    name: Aset Tidak Lancar Lain
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 32
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 0
+    name: Kewajiban Jangka Pendek
+    description: Kewajiban jangka pendek adalah utang koperasi sektor riil yang digunakan
+      untuk kebutuhan modal kerja dan memelihara likuiditas koperasi sektor riil dan
+      harus dilunasi paling lama dalam satu. pcriode akuntansi koperasi sektor riiL
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 33
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 1
+    name: Utang Usaha
+    description: Utang usaha adalah utang kepada anggota dan non anggota yang terjadi
+      sebagai akibat transaksi usaha pembelian barang/jasa secara non tunai oleh koperasi
+      sektor riil.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 34
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 2
+    name: Simpanan Sukarela
+    description: Simpanan sukarela adalah penyerahan uang tunai kepada koperasi sektor
+      riil oleh anggota yang tidak menentukan kepemilikan (ekuitas) yang pengambilannya
+      dibatasi sesuai perjanjian.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 35
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 4
+    name: Dana-Dana Sisa Hasil Usaha (SHU)
+    description: Dana-dana SHU adalah alokasi dari pembagian SHU setelah dikurangi
+      dana cadangan yang merupakan bagian anggota, pengurus, pengawas, karyawan, dana
+      pendidikan anggota, dana pembangunan daerah kerja dan lain-lain sesuai alokasi
+      yang diatur dalam Anggaran Dasar (AD), Anggaran Rumah Tangga (ART), dan keputusan
+      rapat anggota yang belum dibayarkan kepada yang bersangkutan.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 37
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 5
+    name: Utang Jangka Pendek Lainnya
+    description: Utang jangka pendek lainnya adalah utang koperasi sektor riil jangka
+      pendek lain kepada pihak lain yang harus dilunasi paling lama dalam satu periode
+      akuntansi;
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 38
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 6
+    name: Beban Yang Masih Harus Dibayar
+    description: Beban yang masih harus dibayar adalah beban yang telah terjadi dan
+      diakui sebagai beban tahun yang bersangkutan t~tapi belum dibayar tunai.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 39
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 7
+    name: Pendapatan Diterima Dimuka
+    description: Pendapatan diterima dimuka adalah pendapatan yang telah diterima
+      secara tunai tetapi belum dapat diakui sebagai pendapatan pada tahun buku yang
+      bersangkutan.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 40
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 8
+    name: Hutang Pajak
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 41
+  fields:
+    code_1: 2
+    code_2: 2
+    code_3: 0
+    name: Kewajiban Jangka Panjang
+    description: Kewajiban jangka panjang adalah utang koperasi sektor riil yang digunakan
+      untuk kebutuhan investasi dan/atau kebutuhan lainnya dan dapat dilunasi Iebih
+      dari satu tahun.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 42
+  fields:
+    code_1: 2
+    code_2: 2
+    code_3: 1
+    name: Utang Bank
+    description: Utang kepada bank untuk memenuhi kebutuhan investasi dan kebutuhan
+      lain yang dilakukan dengan proses penarikan kredit/pembiayaan.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 43
+  fields:
+    code_1: 2
+    code_2: 2
+    code_3: 2
+    name: Kewajiban Imbalan Pasca Kerja
+    description: Kewajiban imbalan pasca kerja adalah imbalan pasca kerja selain pesangon
+      pemutusan kerja yang terutang setelah pekerja menyelesaikan masa kerjanya.
+    debit_credit: ''
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 44
+  fields:
+    code_1: 2
+    code_2: 2
+    code_3: 99
+    name: Kewajiban Jangka Panjang Lainnya
+    description: Kewajiban jangka panjang lainnya adalah kewajiban jangka panjang
+      lainnya, bail< berupa modal penyertaan dari mitra kerja atau lembaga keuangan
+      lain atau dari pemerintah untuk memenuhi kebutuhan investasi usaha tertentu.
+    debit_credit: ''
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 46
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 0
+    name: Ekuitas
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 47
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 1
+    name: Simpanan Pokok
+    description: Simpanan pokok adalah sejumlah uang yang sama banyaknya yang wajib
+      dibayarkan oleh anggota kepada koperasi sektor riil pada saat masuk menjadi
+      anggota.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 48
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 2
+    name: Simpanan Wajib
+    description: Simpanan wajib adalah sejμmlah uang yang tidak harus sama besarannya
+      yang wajib dibayar oleh anggota kepada koperasi sektor riil setiap periode selama
+      yang bersangkutan menjadi anggota.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 49
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 3
+    name: Hibah
+    description: Hibah (donasi) adalah sejumlah uang atau barang modal yang mempunyai
+      nilai yang dapat diukur dalam satuan mata uang yang diterima dari pihak Iain,
+      baik yang mengikat clan yang tidak mengikat penggunaannya berupa aset lancar
+      atau aset tetap lainnya.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 50
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 4
+    name: Cadangan
+    description: Cadangan adalah bagian dari Sisa Hasil Usaha (SHU) yang disisihkan
+      sesuai dengan ketentuan Anggaran Dasar (AD) dan Anggaran Rumah Tangga (ART)
+      atau ketetapan rapat anggota.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 51
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 5
+    name: Sisa Hasil Usaha (SHU)
+    description: Sisa Hasil Usaha adalah penjualan barang/jasa sebagai pendapatan
+      koperasi sektor riil yang diperoleh dalam satu periode akuntansi dikurangi dengan
+      biaya operasional, penyusutan dan biaya-biaya lain, termasuk pajak dalam satu
+      periode akuntansi bersangkutan.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 52
+  fields:
+    code_1: 4
+    code_2: 1
+    code_3: 0
+    name: Pendapatan dari Pelayanan Anggota
+    description: ''
+    debit_credit: ''
+    is_enabled: true
+    koperasi_type: []
+- model: dakun.akun
+  pk: 53
+  fields:
+    code_1: 4
+    code_2: 1
+    code_3: 1
+    name: Pelayanan Bruto Anggota
+    description: Pelayanan bruto anggota yaitu pendapatan koperasi sektor riil yang
+      timbul dari transaksi pelayanan ekonomi kepada anggota.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 54
+  fields:
+    code_1: 4
+    code_2: 1
+    code_3: 2
+    name: Beban Pokok Pelayanan
+    description: Beban pokok pelayanan yaitu nilai beli yang dikeluarkan ditambah
+      biaya perolehan hingga barang/jasa siap dijual dengan anggota dalam satu periode
+      akuntansi.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 55
+  fields:
+    code_1: 4
+    code_2: 2
+    code_3: 0
+    name: Pendapatan dari Bisnis dengan Non Anggota
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 56
+  fields:
+    code_1: 4
+    code_2: 2
+    code_3: 1
+    name: Penjualan barang atau jasa kepada non anggota
+    description: Pendapatan koperasi sektor riil yang timbul dari transaksi bisnis
+      dengan pihak non anggota.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 57
+  fields:
+    code_1: 4
+    code_2: 2
+    code_3: 2
+    name: Harga pokok penjualan dengan non anggota
+    description: Untuk koperasi konsumen atau koperasi pemasaran yaitu nilai beli
+      yang dikeluarkan ditambah biaya perolehan hingga barang/jasa siap dijual dengan
+      non anggota dalam periode akuntansi sedangkan perhitungannya yaitu persediaan
+      awal ditambah pembelian dan dikurangi persediaan akhir.
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 3
+    - 4
+- model: dakun.akun
+  pk: 58
+  fields:
+    code_1: 4
+    code_2: 2
+    code_3: 3
+    name: Beban pokok penjualan non anggota
+    description: Untuk koperasi produsen yaitu harga pokok produk yang dikeluarkan
+      ditambah dengan biaya perolehan hingga barang/jasa siap dijual dengan non anggota
+      dalam satu periode akuntansi.
+    debit_credit: ''
+    is_enabled: true
+    koperasi_type:
+    - 2
+- model: dakun.akun
+  pk: 59
+  fields:
+    code_1: 5
+    code_2: 1
+    code_3: 0
+    name: Beban Operasional
+    description: Biaya yang timbul dalam pelaksanaan aktivitas operasional koperasi
+      sektor rill yang secara langsung maupun tidak langsung terkait dengan aktivitas
+      usaha koperasi sektor riil.
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 60
+  fields:
+    code_1: 5
+    code_2: 1
+    code_3: 1
+    name: Beban Usaha
+    description: Beban usaha adalah biaya-biaya yang dikeluarkan oleh koperasi sektor
+      riil yang berkaitan langsung dengan aktivitas usaha koperasi sektorriil yang
+      berkaitan langsung dengan aktivitas usaha koperasi sektor riil meliputi beban
+      penjualan
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 61
+  fields:
+    code_1: 5
+    code_2: 1
+    code_3: 2
+    name: Beban Administrasi dan Umum
+    description: Biaya-biaya yang dikeluarkan oleh koperasi sektor riil yang berkaitan
+      dengan administrasi dan umum untuk mendukung aktivitas operasional koperasi
+      sektor riil
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 62
+  fields:
+    code_1: 5
+    code_2: 1
+    code_3: 3
+    name: Beban Perkoperasian
+    description: Biaya yang dikeluarkan oleh koperasi sektor riil yang tidak berkaitan
+      dengan pengembangan organisasi koperasi sektor riil
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 63
+  fields:
+    code_1: 4
+    code_2: 3
+    code_3: 99
+    name: Pendapatan Lainnya
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 64
+  fields:
+    code_1: 4
+    code_2: 3
+    code_3: 0
+    name: Pendapatan Lainnya
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 65
+  fields:
+    code_1: 5
+    code_2: 2
+    code_3: 0
+    name: Beban Lainnya
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 66
+  fields:
+    code_1: 5
+    code_2: 2
+    code_3: 99
+    name: Beban Lainnya
+    description: ''
+    debit_credit: +
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 67
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 99
+    name: Kewajiban Jangka Pendek Lainnya
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 68
+  fields:
+    code_1: 3
+    code_2: 1
+    code_3: 99
+    name: Ekuitas Lainnya
+    description: ''
+    debit_credit: '-'
+    is_enabled: true
+    koperasi_type:
+    - 1
+    - 3
+    - 4
+    - 2
+- model: dakun.akun
+  pk: 69
+  fields:
+    code_1: 2
+    code_2: 1
+    code_3: 3
+    name: Simpanan Berjangka
+    description: ''
+    debit_credit: '-'
+    is_enabled: false
+    koperasi_type: []
