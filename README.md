@@ -8,7 +8,7 @@ Sistem Informasi Laporan Keuangan Koperasi <strong>Dinas Koperasi dan Usaha Keci
 Information System for Cooperative Financial Reports at the Office of Cooperatives and Small Businesses of West Java Province. The Final Assignment (at Bandung State Polytechnic)
 
 Oleh/By:
-Iqbal Syifa Mahmuda (185134015)
+Iqbal Syifa Mahmuda, S.Tr. Ak. (185134015)
 Politeknik Negeri Bandung (Tahun 2018-2022, lulus tepat waktu)
 
 Wa'alaikumsalam warrahmatullaahi wabarakaatuh.
