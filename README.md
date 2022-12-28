@@ -11,6 +11,8 @@ Oleh/By:
 Iqbal Syifa Mahmuda, S.Tr. Ak. (185134015)
 Politeknik Negeri Bandung (Tahun 2018-2022, lulus tepat waktu)
 
+NEW AND IMPROVED REPOSITORY ANYONE CAN JOIN: https://github.com/bal-sm/silk
+
 Wa'alaikumsalam warrahmatullaahi wabarakaatuh.
 وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 Peace be upon you and God's mercy and blessings
