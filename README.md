@@ -1,6 +1,9 @@
 Assalamu'alaikum warrahmatullaahi wabarakaatuh.
+
 اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَا تُهُ
+
 Semoga Allah melimpahkan keselamatan, rahmat, dan keberkahan untukmu.
+
 Peace be upon you, and mercy and blessings of Allah.
 
 # silk-ta
@@ -17,5 +20,7 @@ NEW AND IMPROVED REPOSITORY ANYONE CAN JOIN (EXCEPT WHO DON'T WANT TO): https://
 👆🏾👆🏾👆🏾👆🏾👆🏾any suggestions are much appreciated thanks! 😎👍🏿👍🏿👍🏿👍🏿👍🏿
 
 Wa'alaikumsalam warrahmatullaahi wabarakaatuh.
+
 وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+
 Peace be upon you and God's mercy and blessings
