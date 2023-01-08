@@ -16,8 +16,11 @@ Politeknik Negeri Bandung (Tahun 2018-2022, lulus tepat waktu)
 
 ![penghargaan](https://github.com/bal-sm/silk-ta/blob/master/awards/ini_penghargaan.jpg?raw=true)
 
-NEW AND IMPROVED REPOSITORY ANYONE CAN JOIN (EXCEPT WHO DON'T WANT TO): https://github.com/bal-sm/silk
-👆🏾👆🏾👆🏾👆🏾👆🏾any suggestions are much appreciated thanks! 😎👍🏿👍🏿👍🏿👍🏿👍🏿
+NEW AND IMPROVED REPOSITORY ANYONE CAN JOIN (EXCEPT WHO DON'T WANT TO): 
+
+https://github.com/bal-sm/silk
+
+Any suggestions are much appreciated thanks!
 
 Wa'alaikumsalam warrahmatullaahi wabarakaatuh.
 
